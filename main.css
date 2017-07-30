@@ -1,0 +1,90 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #04A777;
+}
+
+#root {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+header, main {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 14em;
+  margin-top: -.1em;
+  line-height: 1em;
+  width: fit-content;
+}
+
+.profile {
+  width: 18em;
+  height: 5em;
+  margin: 4em 0px 0px 5em;
+}
+
+.meCover {
+  width: 65vw;
+  position: relative;
+  opacity: .7;
+}
+
+nav {
+  width: 10vw;
+}
+
+nav div {
+  margin-top: -4.7em;
+  padding-top: 15em;
+}
+
+.menuItem {
+  transform: rotate(90deg);
+  transform-origin: right, top;
+  font-size: 1.7em;
+  width: 4em;
+  border-top: thick solid #04A777;
+  padding-top: .5em;
+}
+
+.sideLogo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4em;
+  transform: rotate(90deg) !important;
+  width: 7em;
+  padding: 0px;
+  margin-top: 10.9em;
+  margin-left: -2.5em;
+  color: #BFB7B6;
+}
+
+.coverBlurb {
+  position: absolute;
+  margin: 62em 0px 0px 10em;
+  height: fit-content;
+}
+
+.title {
+  display: block;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 5em;
+}
+
+.desc {
+  color: white;
+  font-size: 1.4em;
+  display: block;
+  margin-left: 2em;
+  padding-bottom: 1.3em;
+}
+
+.coverIssue {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5em;
+  margin-left: 10em;
+  /*margin-left: 4em;*/
+}
